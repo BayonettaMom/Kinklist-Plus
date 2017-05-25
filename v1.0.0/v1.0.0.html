@@ -1,0 +1,2636 @@
+<html lang="en">
+	<head>
+<meta charset="UTF-8">
+<!-- This is the font used by the list. You may replace this with a different font, just remebmer to modify the css below. -->
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<!-- This is the bootstrap and jquery used by the list. You may replace this with your own hosts if you so choose -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<title>Kinklist+</title>
+	<!-- This is the font CSS, remember to change it if you changed the font above! -->
+	<style id="css">
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+</style>
+</head>
+	<body>
+<!-- Kinklist-Plus by @BayonettaMom on Github -->
+<!-- BEGIN NOTICE -->
+<!-- This modal appears when the list is first opened. Use this to explain the list, warn of the NSFW contents, whatever you may need. -->
+<div id="noticeModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <!-- This line appears in the titlebar of the modal. -->
+				<h4 class="modal-title">Welcome to the list!</h4>
+            </div>
+            <div class="modal-body">
+    <p>Welcome to my kinklist! If you click on a kink, an explanation for why I chose my rating will show up!</p>
+                 
+        <!-- This button appears in the bottom right of the modal. -->
+		<button type="button" style="float: right;" class="btn btn-primary" data-dismiss="modal">Thanks, show me the list!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END NOTICE -->
+<!-- This is the image URL used by the list. Please replace this with a direct link to your list. -->
+<img src="REPLACE THIS WITH A LINK TO YOUR LIST" alt="Kink List" usemap="#Map" />
+<!-- BEGIN IMAGE MAPPING -->
+<!-- To make it easier for newcomers to use, the modals are triggered with an image map. If you're not sure what you're doing, ignore this section. -->
+<map name="Map" id="Map">
+    <area alt="" id="skinny" title="Skinny" href="#" shape="rect" coords="10,66,75,83" />
+    <area alt="" id="chubby" title="Chubby" href="#" shape="rect" coords="10,91,82,108" />
+    <area alt="" id="bsm" title="Small breasts" href="#" shape="rect" coords="10,116,113,132" />
+    <area alt="" id="blg" title="Large breasts" href="#" shape="rect" coords="9,142,114,159" />
+    <area alt="" id="psm" title="Small cocks" href="#" shape="rect" coords="11,167,103,182" />
+    <area alt="" id="plg" title="Large cocks" href="#" shape="rect" coords="109,193,13,211" />
+    <area alt="" id="clothsex" title="Clothed sex" href="#" shape="rect" coords="122,267,10,285" />
+    <area alt="" id="ling" title="Lingerie" href="#" shape="rect" coords="7,307,99,293" />
+    <area alt="" id="sacks" title="Stockings" href="#" shape="rect" coords="11,317,109,335" />
+    <area alt="" id="heels" title="Heels" href="#" shape="rect" coords="10,341,90,359" />
+    <area alt="" id="leather" title="Leather" href="#" shape="rect" coords="11,367,99,384" />
+    <area alt="" id="latex" title="Latex" href="#" shape="rect" coords="9,393,89,408" />
+    <area alt="" id="uniform" title="Uniform / costume" href="#" shape="rect" coords="13,416,158,435" />
+    <area alt="" id="crossdress" title="Cross-dressing" href="#" shape="rect" coords="142,444,11,460" />
+    <area alt="" id="w1m" title="You and 1 male" href="#" shape="rect" coords="10,521,125,504" />
+    <area alt="" id="w1f" title="You and 1 female" href="#" shape="rect" coords="9,527,135,543" />
+    <area alt="" id="wmtf" title="You and MtF trans" href="#" shape="rect" coords="10,551,137,568" />
+    <area alt="" id="wftm" title="You and FtM trans" href="#" shape="rect" coords="10,577,137,595" />
+    <area alt="" id="w1m1f" title="You and 1 male, 1 female" href="#" shape="rect" coords="10,601,177,621" />
+    <area alt="" id="w2m" title="You and 2 males" href="#" shape="rect" coords="11,627,131,647" />
+    <area alt="" id="w2f" title="You and 2 females" href="#" shape="rect" coords="141,671,10,649" />
+    <area alt="" id="orgy" title="Orgy" href="#" shape="rect" coords="9,673,65,695" />
+    <area alt="" id="romance" title="Romance / Affection" href="#" shape="rect" coords="421,80,259,103" />
+    <area alt="" id="handjob" title="Handjob / Fingering" href="#" shape="rect" coords="258,107,411,127" />
+    <area alt="" id="blowjob" title="Blowjob" href="#" shape="rect" coords="259,132,354,148" />
+    <area alt="" id="deept" title="Deep throat" href="#" shape="rect" coords="259,156,371,177" />
+    <area alt="" id="swallow" title="Swallowing" href="#" shape="rect" coords="261,181,375,203" />
+    <area alt="" id="facial" title="Facials" href="#" shape="rect" coords="259,229,350,205" />
+    <area alt="" id="eatout" title="Cunnilingus" href="#" shape="rect" coords="377,251,259,232" />
+    <area alt="" id="f-s" title="Face-sitting" href="#" shape="rect" coords="259,257,370,273" />
+    <area alt="" id="edgy" title="Edging" href="#" shape="rect" coords="259,283,347,301" />
+    <area alt="" id="tease" title="Teasing" href="#" shape="rect" coords="262,303,351,324" />
+    <area alt="" id="JOI" title="JOI, SI" href="#" shape="rect" coords="262,331,345,351" />
+    <area alt="" id="atoys" title="Anal toys" href="#" shape="rect" coords="258,401,358,424" />
+    <area alt="" id="asex" title="Anal sex, pegging" href="#" shape="rect" coords="261,431,407,453" />
+    <area alt="" id="rim" title="Rimming" href="#" shape="rect" coords="259,453,359,476" />
+    <area alt="" id="dp" title="Double penetration" href="#" shape="rect" coords="261,479,414,501" />
+    <area alt="" id="afist" title="Anal fisting" href="#" shape="rect" coords="370,529,262,503" />
+    <area alt="" id="gag" title="Gag" href="#" shape="rect" coords="510,76,583,103" />
+    <area alt="" id="collar" title="Collar" href="#" shape="rect" coords="510,104,594,127" />
+    <area alt="" id="leash" title="Leash" href="#" shape="rect" coords="511,129,591,149" />
+    <area alt="" id="chastity" title="Chastity" href="#" shape="rect" coords="514,156,601,173" />
+    <area alt="" id="bondl" title="Bondage (Light)" href="#" shape="rect" coords="511,181,647,201" />
+    <area alt="" id="bondh" title="Bondage (Heavy)" href="#" shape="rect" coords="510,207,653,228" />
+    <area alt="" id="encase" title="Encasement" href="#" shape="rect" coords="511,232,629,249" />
+    <area alt="" id="dildo" title="Dildos" href="#" shape="rect" coords="510,303,597,325" />
+    <area alt="" id="plugs" title="Plugs" href="#" shape="rect" coords="510,327,591,352" />
+    <area alt="" id="vibra" title="Vibrators" href="#" shape="rect" coords="510,355,607,375" />
+    <area alt="" id="sounding" title="Sounding" href="#" shape="rect" coords="510,377,611,401" />
+    <area alt="" id="domsub" title="Dominant / Submissive" href="#" shape="rect" coords="510,455,681,473" />
+    <area alt="" id="domserv" title="Domestic servitude" href="#" shape="rect" coords="510,480,665,500" />
+    <area alt="" id="slave" title="Slavery" href="#" shape="rect" coords="511,505,602,524" />
+    <area alt="" id="petplay" title="Pet play" href="#" shape="rect" coords="511,531,601,551" />
+    <area alt="" id="ddlg" title="DD/lg, MD/lb" href="#" shape="rect" coords="511,556,629,575" />
+    <area alt="" id="discpl" title="Discipline" href="#" shape="rect" coords="511,581,613,600" />
+    <area alt="" id="begging" title="Begging" href="#" shape="rect" coords="510,607,605,627" />
+    <area alt="" id="forceorg" title="Forced orgasm" href="#" shape="rect" coords="510,629,639,651" />
+    <area alt="" id="orgcont" title="Orgasm control" href="#" shape="rect" coords="511,655,642,675" />
+    <area alt="" id="orgden" title="Orgasm denial" href="#" shape="rect" coords="511,681,639,699" />
+    <area alt="" id="powexch" title="Power exchange" href="#" shape="rect" coords="509,727,649,707" />
+    <area alt="" id="raep" title="Non-con / rape" href="#" shape="rect" coords="758,79,889,96" />
+    <area alt="" id="blackmail" title="Blackmail / coercion" href="#" shape="rect" coords="758,107,918,123" />
+    <area alt="" id="kidnapping" title="Kidnapping" href="#" shape="rect" coords="759,132,870,147" />
+    <area alt="" id="drugs" title="Drugs / alcohol" href="#" shape="rect" coords="761,155,890,172" />
+    <area alt="" id="sleepy" title="Sleep play" href="#" shape="rect" coords="761,180,870,199" />
+    <area alt="" id="incest" title="Incest" href="#" shape="rect" coords="761,238,825,258" />
+    <area alt="" id="ageplay" title="Ageplay" href="#" shape="rect" coords="761,264,835,283" />
+    <area alt="" id="irrp" title="Interracial / Raceplay" href="#" shape="rect" coords="761,288,906,312" />
+    <area alt="" id="beast" title="Beastiality" href="#" shape="rect" coords="759,316,838,332" />
+    <area alt="" id="necro" title="Necrophilia" href="#" shape="rect" coords="759,338,854,358" />
+    <area alt="" id="cheat" title="Cheating" href="#" shape="rect" coords="759,360,843,384" />
+    <area alt="" id="exhib" title="Exhibitionism" href="#" shape="rect" coords="759,390,863,410" />
+    <area alt="" id="voyeur" title="Voyeurism" href="#" shape="rect" coords="759,415,847,434" />
+    <area alt="" id="futa" title="Futanari" href="#" shape="rect" coords="757,488,859,510" />
+    <area alt="" id="fur" title="Furry" href="#" shape="rect" coords="761,515,838,535" />
+    <area alt="" id="vore" title="Vore" href="#" shape="rect" coords="759,540,838,559" />
+    <area alt="" id="transform" title="Transformation" href="#" shape="rect" coords="761,564,891,582" />
+    <area alt="" id="tentacle" onclick="play()" title="Tentacles" href="#" shape="rect" coords="758,588,865,608" />
+    <area alt="" id="monster" title="Monster or Alien" href="#" shape="rect" coords="759,639,901,612" />
+    <area alt="" id="blood" title="Blood" href="#" shape="rect" coords="1010,60,1079,87" />
+    <area alt="" id="piss" title="Watersports" href="#" shape="rect" coords="1006,91,1105,110" />
+    <area alt="" id="scat" title="Scat" href="#" shape="rect" coords="1067,118,1010,136" />
+    <area alt="" id="milk" title="Lactation" href="#" shape="rect" coords="1009,162,1097,142" />
+    <area alt="" id="babby" title="Diapers" href="#" shape="rect" coords="1007,188,1082,166" />
+    <area alt="" id="cumplay" title="Cum play" href="#" shape="rect" coords="1009,190,1087,208" />
+    <area alt="" id="glory" title="Glory hole" href="#" shape="rect" coords="1009,288,1118,266" />
+    <area alt="" id="namecall" title="Name calling" href="#" shape="rect" coords="1009,310,1142,288" />
+    <area alt="" id="humiliate" title="Humiliation" href="#" shape="rect" coords="1010,342,1121,314" />
+    <area alt="" id="cpw" title="Cock/Pussy worship" href="#" shape="rect" coords="1009,384,1173,412" />
+    <area alt="" id="aw" title="Ass worship" href="#" shape="rect" coords="1009,436,1127,414" />
+    <area alt="" id="fplay" title="Foot play" href="#" shape="rect" coords="1006,462,1113,439" />
+    <area alt="" id="tickle" title="Tickling" href="#" shape="rect" coords="1010,467,1103,483" />
+    <area alt="" id="senplay" title="Sensation play" href="#" shape="rect" coords="1007,488,1139,511" />
+    <area alt="" id="electro" title="Electro stimulation" href="#" shape="rect" coords="1011,514,1159,534" />
+    <area alt="" id="fist" title="Fisting" href="#" shape="rect" coords="1261,75,1346,99" />
+    <area alt="" id="gangbang" title="Gangbang" href="#" shape="rect" coords="1258,104,1369,124" />
+    <area alt="" id="breplay" title="Breath play" href="#" shape="rect" coords="1261,147,1370,131" />
+    <area alt="" id="impreg" title="Impregnation" href="#" shape="rect" coords="1261,175,1377,159" />
+    <area alt="" id="pregnan" title="Pregnancy" href="#" shape="rect" coords="1258,200,1370,183" />
+    <area alt="" id="femini" title="Feminization" href="#" shape="rect" coords="1259,227,1381,207" />
+    <area alt="" id="cuck" title="Cuckold / Cuckquean" href="#" shape="rect" coords="1258,252,1426,232" />
+    <area alt="" id="lpain" title="Light pain" href="#" shape="rect" coords="1259,303,1363,324" />
+    <area alt="" id="hpain" title="Heavy pain" href="#" shape="rect" coords="1259,327,1370,348" />
+    <area alt="" id="nipclam" title="Nipple clamps" href="#" shape="rect" coords="1261,354,1390,375" />
+    <area alt="" id="clothpin" title="Clothes pins" href="#" shape="rect" coords="1262,379,1377,403" />
+    <area alt="" id="caning" title="Caning" href="#" shape="rect" coords="1258,403,1349,423" />
+    <area alt="" id="flogging" title="Flogging" href="#" shape="rect" coords="1258,428,1358,451" />
+    <area alt="" id="beating" title="Beating" href="#" shape="rect" coords="1259,454,1351,476" />
+    <area alt="" id="spanking" title="Spanking" href="#" shape="rect" coords="1259,478,1361,500" />
+    <area alt="" id="cps" title="Cock/pussy slapping" href="#" shape="rect" coords="1259,504,1423,524" />
+    <area alt="" id="cpt" title="Cock/pussy torture" href="#" shape="rect" coords="1261,528,1410,548" />
+    <area alt="" id="wax" title="Hot Wax" href="#" shape="rect" coords="1262,556,1355,574" />
+    <area alt="" id="scratch" title="Scratching" href="#" shape="rect" coords="1259,582,1366,599" />
+    <area alt="" id="biting" title="Biting" href="#" shape="rect" coords="1258,604,1342,626" />
+    <area alt="" id="cutting" title="Cutting" href="#" shape="rect" coords="1262,630,1347,651" />
+</map>
+<!-- IMAGE MAPPING END -->
+<!-- KINK MODALS BEGIN -->
+<!-- These are the actual explanations, they all follow the same template, so refer back to the commenting on this one if you get confused. -->
+<div id="skinnyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <!-- The modal title is the name of the kink being explained. You can change these to something else if you'd like. -->
+				<h4 class="modal-title">Skinny</h4>
+            </div>
+            <div class="modal-body">
+			<!-- Edit the bit that says Content to add your explanation, just don't remove the <p> and </p>! -->
+    <p>Content</p>
+                 
+        <!-- This is the close button. You can change the text here if you'd like. -->
+		<button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="spankingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Spanking</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="chubbyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Chubby</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="bsmModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Small breasts</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="blgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Large breasts</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="psmModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Small cocks</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="plgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Large cocks</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="clothsexModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Clothed sex</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="lingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Lingerie</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="sacksModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Stockings</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="heelsModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Heels</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="leatherModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Leather</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="latexModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Latex</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="uniformModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Uniform / costume</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="crossdressModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cross-dressing</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="w1mModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and 1 male</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="w1fModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and 1 female</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="wmtfModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and MtF trans</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="wftmModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and FtM trans</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="w1m1fModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and 1 male, 1 female</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="w2mModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and 2 males</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="w2fModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">You and 2 females</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="orgyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Orgy</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="romanceModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Romance / Affection</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="handjobModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Handjob / fingering</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="blowjobModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Blowjob</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="deeptModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Deep throat</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="swallowModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Swallowing</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="facialModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Facials</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="eatoutModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cunnilingus</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="f-sModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Face-sitting</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      
+      <div id="edgyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Edging</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="teaseModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Teasing</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="JOIModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">JOI, SI</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="atoysModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Anal toys</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="asexModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Anal sex, pegging</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="rimModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Rimming</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="dpModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Double penetration</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="afistModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Anal fisting</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="gagModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Gag</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="collarModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Collar</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="leashModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Leash</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="chastityModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Chastity</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="bondlModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Bondage (Light)</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="bondhModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Bondage (Heavy)</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="encaseModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Encasement</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="dildoModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Dildos</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="plugsModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Plugs</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="vibraModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Vibrators</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="soundingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Sounding</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="domsubModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Dominant / Submissive</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="domservModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Domestic servitude</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="slaveModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Slavery</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="petplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Pet play</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="ddlgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">DD/lg, MD/lb</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="discplModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Discipline</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="beggingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Begging</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="forceorgModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Forced orgasm</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="orgcontModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Orgasm control</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="orgdenModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Orgasm denial</h4>
+            </div>
+            <div class="modal-body">
+              <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="powexchModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Power exchange</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="raepModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Non-con / rape</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="blackmailModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Blackmail / coercion</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="kidnappingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Kidnapping</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+	
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="drugsModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Drugs / alcohol</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="sleepyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Sleep play</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="incestModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Incest</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="ageplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Ageplay</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="irrpModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Interracial / Raceplay</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="beastModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Beastiality</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="necroModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Necrophilia</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cheatModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cheating</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="exhibModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Exhibitionism</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="voyeurModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Voyeurism</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="futaModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Futanari</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="furModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Furry</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="voreModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Vore</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="transformModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Transformation</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="whydidithavetobetentaclesModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Tentacles</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="monsterModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Monster or Alien</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="bloodModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Blood</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content<p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="pissModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Watersports</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="scatModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Scat</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="milkModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Lactation</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="babbyModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Diapers</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cumplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cum play</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="gloryModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Glory hole</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="namecallModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Name calling</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="humiliateModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Humiliation</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cpwModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cock/Pussy worship</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="awModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Ass worship</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="fplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Foot play</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="tickleModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Tickling</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="senplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Sensation play</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="electroModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Electro stimulation</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="fistinModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Fisting</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="gangbangModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Gangbang</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="breplayModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Breath play</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="impregModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Impregnation</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="pregnanModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Pregnancy</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="feminiModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Feminization</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cuckModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cuckold / Cuckquean</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="lpainModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Light pain</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="hpainModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Heavy pain</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="nipclamModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Nipple clamps</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="clothpinModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Clothes pins</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="caningModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Caning</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="floggingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Flogging</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="beatingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Beating</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cpsModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cock/Pussy slapping</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cptModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cock/Pussy torture</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="waxModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Hot Wax</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="scratchModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Scratching</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="bitingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Biting</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+      <div id="cuttingModal" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Cutting</h4>
+            </div>
+            <div class="modal-body">
+    <p>Content</p>
+                 
+        <button type="button" style="float: right;" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- KINK MODALS END -->
+<!-- BEGIN CREDIT, this just credits me for the code and the author of the generator. I ask you to keep this in, but you may remove it if you like. -->
+     <br><br>
+      <sub>Coded by <a href="http://bayonetta.moms.exposed" target="_blank">Mom</a>. (<a href="https://github.com/BayonettaMom" target="_blank">Github</a>) Kinklist generator (v1.0.2) by <a href="https://github.com/Goctionni" target="_blank">Goctionni</a> on Github.</sub>
+<!-- END CREDIT -->
+<!-- BEGIN MODAL JS -->
+<!-- Typically speaking, don't edit this unless you know what you're doing --> 
+	<script id="modalJavascript">
+<!-- However, if you'd like to remove the modal that appears when the page loads, delete this section -->
+$(document).ready(function(){
+  $("#noticeModal").modal('show');
+ });
+ <!-- stop deleting now -->
+$(function(){
+  
+  
+$('#skinny').click(function(){
+  $('#skinnyModal').modal('show');
+  return false;
+})
+
+
+$('#chubby').click(function(){
+  $('#chubbyModal').modal('show');
+  return false;
+})
+
+
+$('#bsm').click(function(){
+  $('#bsmModal').modal('show');
+  return false;
+})
+
+$('#blg').click(function(){
+  $('#blgModal').modal('show');
+  return false;
+})
+
+$('#psm').click(function(){
+  $('#psmModal').modal('show');
+  return false;
+})
+
+
+$('#plg').click(function(){
+  $('#plgModal').modal('show');
+  return false;
+})
+
+
+$('#clothsex').click(function(){
+  $('#clothsexModal').modal('show');
+  return false;
+})
+
+
+$('#ling').click(function(){
+  $('#lingModal').modal('show');
+  return false;
+})
+
+
+$('#sacks').click(function(){
+  $('#sacksModal').modal('show');
+  return false;
+})
+
+
+$('#heels').click(function(){
+  $('#heelsModal').modal('show');
+  return false;
+})
+
+
+$('#leather').click(function(){
+  $('#leatherModal').modal('show');
+  return false;
+})
+
+
+$('#latex').click(function(){
+  $('#latexModal').modal('show');
+  return false;
+})
+
+
+$('#uniform').click(function(){
+  $('#uniformModal').modal('show');
+  return false;
+})
+
+
+$('#crossdress').click(function(){
+  $('#crossdressModal').modal('show');
+  return false;
+})
+
+
+$('#w1m').click(function(){
+  $('#w1mModal').modal('show');
+  return false;
+})
+
+
+$('#w1f').click(function(){
+  $('#w1fModal').modal('show');
+  return false;
+})
+
+
+$('#wmtf').click(function(){
+  $('#wmtfModal').modal('show');
+  return false;
+})
+
+
+$('#wftm').click(function(){
+  $('#wftmModal').modal('show');
+  return false;
+})
+
+
+$('#w1m1f').click(function(){
+  $('#w1m1fModal').modal('show');
+  return false;
+})
+
+
+$('#w2m').click(function(){
+  $('#w2mModal').modal('show');
+  return false;
+})
+
+$('#w2f').click(function(){
+  $('#w2fModal').modal('show');
+  return false;
+})
+
+$('#orgy').click(function(){
+  $('#orgyModal').modal('show');
+  return false;
+})
+
+
+$('#romance').click(function(){
+  $('#romanceModal').modal('show');
+  return false;
+})
+
+
+$('#handjob').click(function(){
+  $('#handjobModal').modal('show');
+  return false;
+})
+
+
+$('#blowjob').click(function(){
+  $('#blowjobModal').modal('show');
+  return false;
+})
+
+
+$('#deept').click(function(){
+  $('#deeptModal').modal('show');
+  return false;
+})
+
+
+$('#swallow').click(function(){
+  $('#swallowModal').modal('show');
+  return false;
+})
+
+
+$('#facial').click(function(){
+  $('#facialModal').modal('show');
+  return false;
+})
+
+
+$('#eatout').click(function(){
+  $('#eatoutModal').modal('show');
+  return false;
+})
+
+
+$('#f-s').click(function(){
+  $('#f-sModal').modal('show');
+  return false;
+})
+
+
+$('#edgy').click(function(){
+  $('#edgyModal').modal('show');
+  return false;
+})
+
+
+$('#tease').click(function(){
+  $('#teaseModal').modal('show');
+  return false;
+})
+
+
+$('#JOI').click(function(){
+  $('#JOIModal').modal('show');
+  return false;
+})
+
+
+$('#atoys').click(function(){
+  $('#atoysModal').modal('show');
+  return false;
+})
+
+
+$('#asex').click(function(){
+  $('#asexModal').modal('show');
+  return false;
+})
+
+
+$('#rim').click(function(){
+  $('#rimModal').modal('show');
+  return false;
+})
+
+
+
+$('#dp').click(function(){
+  $('#dpModal').modal('show');
+  return false;
+})
+
+
+
+$('#afist').click(function(){
+  $('#afistModal').modal('show');
+  return false;
+})
+
+
+
+$('#gag').click(function(){
+  $('#gagModal').modal('show');
+  return false;
+})
+
+
+
+$('#collar').click(function(){
+  $('#collarModal').modal('show');
+  return false;
+})
+
+
+
+$('#leash').click(function(){
+  $('#leashModal').modal('show');
+  return false;
+})
+
+
+
+$('#chastity').click(function(){
+  $('#chastityModal').modal('show');
+  return false;
+})
+
+
+
+$('#bondl').click(function(){
+  $('#bondlModal').modal('show');
+  return false;
+})
+
+
+
+$('#bondh').click(function(){
+  $('#bondhModal').modal('show');
+  return false;
+})
+
+
+
+$('#encase').click(function(){
+  $('#encaseModal').modal('show');
+  return false;
+})
+
+
+
+$('#dildo').click(function(){
+  $('#dildoModal').modal('show');
+  return false;
+})
+
+
+
+$('#plugs').click(function(){
+  $('#plugsModal').modal('show');
+  return false;
+})
+
+
+
+$('#vibra').click(function(){
+  $('#vibraModal').modal('show');
+  return false;
+})
+
+
+
+$('#sounding').click(function(){
+  $('#soundingModal').modal('show');
+  return false;
+})
+
+
+
+$('#domsub').click(function(){
+  $('#domsubModal').modal('show');
+  return false;
+})
+
+
+
+$('#domserv').click(function(){
+  $('#domservModal').modal('show');
+  return false;
+})
+
+
+
+$('#slave').click(function(){
+  $('#slaveModal').modal('show');
+  return false;
+})
+
+
+
+$('#petplay').click(function(){
+  $('#petplayModal').modal('show');
+  return false;
+})
+
+
+
+$('#ddlg').click(function(){
+  $('#ddlgModal').modal('show');
+  return false;
+})
+
+
+
+$('#discpl').click(function(){
+  $('#discplModal').modal('show');
+  return false;
+})
+
+
+
+$('#begging').click(function(){
+  $('#beggingModal').modal('show');
+  return false;
+})
+
+
+
+$('#forceorg').click(function(){
+  $('#forceorgModal').modal('show');
+  return false;
+})
+
+
+
+$('#orgcont').click(function(){
+  $('#orgcontModal').modal('show');
+  return false;
+})
+
+
+
+$('#orgden').click(function(){
+  $('#orgdenModal').modal('show');
+  return false;
+})
+
+
+
+$('#powexch').click(function(){
+  $('#powexchModal').modal('show');
+  return false;
+})
+
+
+
+$('#raep').click(function(){
+  $('#raepModal').modal('show');
+  return false;
+})
+
+
+
+$('#blackmail').click(function(){
+  $('#blackmailModal').modal('show');
+  return false;
+})
+
+
+
+$('#kidnapping').click(function(){
+  $('#kidnappingModal').modal('show');
+  return false;
+})
+
+
+
+$('#drugs').click(function(){
+  $('#drugsModal').modal('show');
+  return false;
+})
+
+
+
+$('#sleepy').click(function(){
+  $('#sleepyModal').modal('show');
+  return false;
+})
+
+
+
+$('#incest').click(function(){
+  $('#incestModal').modal('show');
+  return false;
+})
+
+
+
+$('#ageplay').click(function(){
+  $('#ageplayModal').modal('show');
+  return false;
+})
+
+
+
+$('#irrp').click(function(){
+  $('#irrpModal').modal('show');
+  return false;
+})
+
+
+
+$('#beast').click(function(){
+  $('#beastModal').modal('show');
+  return false;
+})
+
+
+
+$('#necro').click(function(){
+  $('#necroModal').modal('show');
+  return false;
+})
+
+
+
+$('#cheat').click(function(){
+  $('#cheatModal').modal('show');
+  return false;
+})
+
+
+
+$('#exhib').click(function(){
+  $('#exhibModal').modal('show');
+  return false;
+})
+
+
+
+$('#voyeur').click(function(){
+  $('#voyeurModal').modal('show');
+  return false;
+})
+
+
+
+$('#futa').click(function(){
+  $('#futaModal').modal('show');
+  return false;
+})
+
+
+
+$('#fur').click(function(){
+  $('#furModal').modal('show');
+  return false;
+})
+
+
+
+$('#vore').click(function(){
+  $('#voreModal').modal('show');
+  return false;
+})
+
+
+
+$('#transform').click(function(){
+  $('#transformModal').modal('show');
+  return false;
+})
+
+$('#tentacle').click(function(){
+  $('#whydidithavetobetentaclesModal').modal('show');
+  return false;
+})
+
+$('#monster').click(function(){
+  $('#monsterModal').modal('show');
+  return false;
+})
+
+
+
+$('#blood').click(function(){
+  $('#bloodModal').modal('show');
+  return false;
+})
+
+
+
+$('#piss').click(function(){
+  $('#pissModal').modal('show');
+  return false;
+})
+
+
+
+$('#scat').click(function(){
+  $('#scatModal').modal('show');
+  return false;
+})
+
+
+
+$('#milk').click(function(){
+  $('#milkModal').modal('show');
+  return false;
+})
+
+$('#babby').click(function(){
+  $('#babbyModal').modal('show');
+  return false;
+})
+
+
+$('#cumplay').click(function(){
+  $('#cumplayModal').modal('show');
+  return false;
+})
+
+
+
+$('#glory').click(function(){
+  $('#gloryModal').modal('show');
+  return false;
+})
+
+
+
+$('#namecall').click(function(){
+  $('#namecallModal').modal('show');
+  return false;
+})
+
+
+
+$('#humiliate').click(function(){
+  $('#humiliateModal').modal('show');
+  return false;
+})
+
+
+
+$('#cpw').click(function(){
+  $('#cpwModal').modal('show');
+  return false;
+})
+
+
+
+$('#aw').click(function(){
+  $('#awModal').modal('show');
+  return false;
+})
+
+
+
+$('#fplay').click(function(){
+  $('#fplayModal').modal('show');
+  return false;
+})
+
+$('#tickle').click(function(){
+  $('#tickleModal').modal('show');
+  return false;
+})
+
+$('#senplay').click(function(){
+  $('#senplayModal').modal('show');
+  return false;
+})
+
+
+
+$('#electro').click(function(){
+  $('#electroModal').modal('show');
+  return false;
+})
+
+
+
+$('#fist').click(function(){
+  $('#fistinModal').modal('show');
+  return false;
+})
+
+
+
+$('#gangbang').click(function(){
+  $('#gangbangModal').modal('show');
+  return false;
+})
+
+
+
+$('#breplay').click(function(){
+  $('#breplayModal').modal('show');
+  return false;
+})
+
+
+
+$('#impreg').click(function(){
+  $('#impregModal').modal('show');
+  return false;
+})
+
+
+
+$('#pregnan').click(function(){
+  $('#pregnanModal').modal('show');
+  return false;
+})
+
+$('#femini').click(function(){
+  $('#feminiModal').modal('show');
+  return false;
+})
+
+$('#cuck').click(function(){
+  $('#cuckModal').modal('show');
+  return false;
+})
+
+$('#lpain').click(function(){
+  $('#lpainModal').modal('show');
+  return false;
+})
+
+$('#hpain').click(function(){
+  $('#hpainModal').modal('show');
+  return false;
+})
+
+$('#nipclam').click(function(){
+  $('#nipclamModal').modal('show');
+  return false;
+})
+
+$('#clothpin').click(function(){
+  $('#clothpinModal').modal('show');
+  return false;
+})
+
+$('#caning').click(function(){
+  $('#caningModal').modal('show');
+  return false;
+})
+
+$('#flogging').click(function(){
+  $('#floggingModal').modal('show');
+  return false;
+})
+
+$('#beating').click(function(){
+  $('#beatingModal').modal('show');
+  return false;
+})
+
+$('#spanking').click(function(){
+  $('#spankingModal').modal('show');
+  return false;
+})
+
+$('#cps').click(function(){
+  $('#cpsModal').modal('show');
+  return false;
+})
+
+$('#cpt').click(function(){
+  $('#cptModal').modal('show');
+  return false;
+})
+
+$('#wax').click(function(){
+  $('#waxModal').modal('show');
+  return false;
+})
+
+$('#scratch').click(function(){
+  $('#scratchModal').modal('show');
+  return false;
+})
+
+$('#biting').click(function(){
+  $('#bitingModal').modal('show');
+  return false;
+})
+
+$('#cutting').click(function(){
+  $('#cuttingModal').modal('show');
+  return false;
+})
+
+
+});
+</script>
+<!-- END MODAL JS -->
+</body>
+</html>
